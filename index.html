@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="main">
+    <section class="firstPage">
+      <div class="mainblock">
+        <p>Text</p>
+        <p>Text</p>
+        <p>Text</p>
+        <p>Text</p>
+        <p>Text</p>
+      </div>
+      <form class="mainButtons">
+        <input class="edit btn btn-warning" type="button" name="edit" value="edit" />
+        <input class="style btn btn-info" type="button" name="style" value="style" />
+      </form>
+      <div class="secondblock">
+        <div class="textedit">
+          <textarea name="edit" rows="11"></textarea>
+          <form style="padding-left: 10px; padding-bottom: 10px;">
+            <input class="add btn btn-danger" type="button" name="add" value="add" />
+            <input class="save btn btn-success" type="button" name="save" value="save" />
+          </form>
+        </div>
+        <div class="styleedit">
+          <p>Font Size:</p>
+          <form name="FontSize">
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="size" class="custom-control-input" value="12px" />
+              <label class="custom-control-label" for="customRadioInline1">12px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="size" class="custom-control-input" value="14px" />
+              <label class="custom-control-label" for="customRadioInline2">14px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline3" name="size" class="custom-control-input" value="16px" />
+              <label class="custom-control-label" for="customRadioInline3">16px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline4" name="size" class="custom-control-input" value="18px" />
+              <label class="custom-control-label" for="customRadioInline4">18px</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline5" name="size" class="custom-control-input" value="20px" />
+              <label class="custom-control-label" for="customRadioInline5">20px</label>
+            </div>
+          </form>
+          <p>Font Family:</p>
+          <form name="FontFamily">
+            <select name="Font" class="custom-select mr-sm-2" style="width: 20%; ">
+              <option>Choose option</option>
+              <option value="cursive">cursive</option>
+              <option value="fantasy">fantasy</option>
+              <option value="monospase">monospase</option>
+              <option value="sans-serif">Sans-serif</option>
+            </select>
+          </form>
+          <p>Colors:</p>
+          <form>
+            <input class="color btn btn-secondary" type="button" name="color" value="color of text" />
+            <input class="background btn btn-secondary" type="button" name="background" value="background color" />
+          </form>
+          <p>Style:</p>
+          <div class="fontWeightStyle">
+            <form name="FontWeight">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="bold custom-control-input" id="customCheck1" name="bold" value="bold">
+                <label class="custom-control-label" for="customCheck1">Bold text &#160; &#160;</label>
+              </div>
+            </form>
+            <form name="FontStyle">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="cursive bold custom-control-input" id="customCheck2" name="italic"
+                  value="italic">
+                <label class="custom-control-label" for="customCheck2">Cursive text</label>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="blockColors">
+          <div class="blockSolo" style="background-color: red;"></div>
+          <div class="blockSolo" style="background-color: blue;"></div>
+          <div class="blockSolo" style="background-color: green;"></div>
+          <div class="blockSolo" style="background-color: black;"></div>
+          <div class="blockSolo" style="background-color: goldenrod;"></div>
+          <div class="blockSolo" style="background-color: pink;"></div>
+          <div class="blockSolo" style="background-color: white;"></div>
+          <div class="blockSolo" style="background-color: indigo;"></div>
+          <div class="blockSolo" style="background-color: skyblue;"></div>
+        </div>
+        <div class="blockBackgroundColors">
+          <div class="blockSolo" style="background-color: red;"></div>
+          <div class="blockSolo" style="background-color: blue;"></div>
+          <div class="blockSolo" style="background-color: green;"></div>
+          <div class="blockSolo" style="background-color: black;"></div>
+          <div class="blockSolo" style="background-color: goldenrod;"></div>
+          <div class="blockSolo" style="background-color: pink;"></div>
+          <div class="blockSolo" style="background-color: white;"></div>
+          <div class="blockSolo" style="background-color: indigo;"></div>
+          <div class="blockSolo" style="background-color: skyblue;"></div>
+        </div>
+      </div>
+    </section>
+    <section class="choose">
+      <h2>Choose what you want:</h2>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline6" name="choose" class="custom-control-input" />
+        <label class="custom-control-label" for="customRadioInline6">Table</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline7" name="choose" class="custom-control-input" />
+        <label class="custom-control-label" for="customRadioInline7">List</label>
+      </div>
+      <div class="table">
+        <div>
+          <span>Count TR: </span><input class='countTr' type="text" placeholder="Count TR:" />
+        </div>
+        <div>
+          <span>Count TD: </span><input class='countTd' type="text" placeholder="Count TD:" />
+        </div>
+        <h4>Add style to your table:</h4>
+        <div>
+          <span>Width of TD: </span><input class='widthTd' type="text" placeholder="Width of TD:" />
+        </div>
+        <div>
+          <span>Height of TD: </span><input class='heightTd' type="text" placeholder="Height of TD:" />
+        </div>
+        <div>
+          <span>Width of border: </span><input class='widthBorder' type="text" placeholder="Width" />
+          <span>Type of border: </span>
+          <select name="typeOfBorder" class="typeOfBorder custom-select mr-sm-2" style="width: 10%;">
+            <option value="solid">solid</option>
+            <option value="dotted">dotted</option>
+            <option value="double">double</option>
+          </select>
+          <span>Color of border: </span>
+          <select name="colorOfBorder" class="colorOfBorder custom-select mr-sm-2" style="width: 10%;">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+          </select>
+        </div>
+        <input class="createTable btn btn-success" type="button" value="Create table" />
+      </div>
+      <div class="list">
+        <div>
+          <span>Count Li: </span><input class="countLi" type="text" placeholder="Count Li:" />
+        </div>
+        <span>Type of marks:</span>
+        <select name="typeOfMarks" class="typeOfMarks custom-select mr-sm-2" style="width: 80%;">
+          <option value="circle">circle</option>
+          <option value="disc">disc</option>
+          <option value="square">square</option>
+        </select>
+        <div>
+          <input class="createList btn btn-success" type="button" value="Create list" />
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>

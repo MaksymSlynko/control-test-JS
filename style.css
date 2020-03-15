@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+}
+
+.main {
+  width: 60%;
+  height: max-content;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.mainblock {
+  width: 100%;
+  height: max-content;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+
+textarea {
+  margin: 10px;
+  width: 98%;
+  resize: none;
+}
+
+.secondblock {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.mainButtons {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.edit,
+.style {
+  margin: 0 auto;
+}
+
+.textedit {
+  display: none;
+}
+
+.styleedit {
+  margin: 20px;
+  display: none;
+}
+
+.styleedit>p {
+  font-weight: bold;
+  margin: 8px;
+}
+
+.blockColors {
+  width: 273px;
+  height: 270px;
+  position: absolute;
+  top: 15px;
+  left: 600px;
+  display: none;
+  flex-wrap: wrap;
+}
+
+.blockSolo {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #000;
+}
+
+.blockBackgroundColors {
+  width: 273px;
+  height: 270px;
+  position: absolute;
+  top: 15px;
+  left: 600px;
+  display: none;
+  flex-wrap: wrap;
+}
+
+.fontWeightStyle {
+  display: flex;
+}
+
+.choose {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: white;
+  display: none;
+}
+
+.table {
+  display: none;
+}
+
+.table>div {
+  margin: 10px 0;
+}
+
+.list>div {
+  margin: 10px 0;
+}
+
+.list {
+  display: none;
+}
+
+/* table {
+  border: 1px solid #000;
+  border-color: black;
+}
+
+
+td,
+tr {
+  border: 1px solid #000;
+  color: black;
+} */
